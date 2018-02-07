@@ -1,0 +1,15 @@
+媽媽給小明多少錢 : <input type="text" id="money" [(ngModel)]="money"/>
+小明買高麗菜 : <input type="text" id="cabbage" [(ngModel)]="cabbage"/>
+小明買蘋果 : <input type="text" id="apple"  [(ngModel)]="apple"/>
+
+<select id="iscoupon" [(ngModel)]="iscoupon">
+  <option value="false">不使用優惠卷</option>
+  <option value="true">使用優惠卷</option>
+</select>
+
+<button id="paymentbut" (click)="payment()">付帳</button>
+
+<hr />
+
+小明剩下多少錢 : <span id="balance">{{ balance }}</span>
+

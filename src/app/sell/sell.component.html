@@ -1,0 +1,11 @@
+商品售價 : <input type="text" id="price" [(ngModel)]="price"/>
+商品數量 : <input type="text" id="qty" [(ngModel)]="qty"/>
+客入付費 : <input type="text" id="paymoney"  [(ngModel)]="paymoney"/>
+
+
+<button id="incomebut" (click)="income()">付帳</button>
+
+<hr />
+
+小明要找多少錢 : <span id="balance">{{ balance }}</span>
+
