@@ -16,7 +16,7 @@ exports.config = {
     require: [
       'e2e/features/step_definitions/*.steps.ts'
     ],
-    //tags:['@sell']
+    tags:['@sell']
   },
   onPrepare() {
     require('ts-node').register({
