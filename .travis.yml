@@ -15,4 +15,4 @@ before_script:
 install:
   - npm install
 script:
-  - npm e2e
+  - yarn e2e
