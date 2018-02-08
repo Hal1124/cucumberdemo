@@ -16,13 +16,8 @@ export class SellComponent implements OnInit {
     this.balance = this.paymoney - (this.price * this.qty);
   }
 
-  // payment() {
-  //   this.balance = this.shoppingService.payment(this.money, this.cabbage, this.apple, this.iscoupon);
-  // }
-
   constructor() { }
 
   ngOnInit() {
   }
-
 }
